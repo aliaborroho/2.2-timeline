@@ -1,0 +1,23 @@
+.timeline {
+	border-left: 4px solid #000080;
+	margin-left: 20%;
+
+}
+
+li {
+	list-style: none;
+}
+.event {
+	margin: .5rem;
+	paddding: .5rem;
+	padding-left: 1rem;
+	border-radius: 3%;
+}
+
+li:nth-child(odd) {
+	background-color: #6CB2E6;
+}
+
+li:nth-child(even) {
+	background-color: #3E82BC;
+}
