@@ -1,0 +1,71 @@
+//@import 'fontawesome/css/fontawesome.css';
+//@import 'reset-css/reset';
+
+html{
+	box-sizing: border-box;
+}
+ *, *:before, *:after{
+	box-sizing:inherit;
+}
+
+.timeline {
+	border-left: 6px solid #AAD4F4;
+	margin-left: 35%;
+	color: white;
+	width: 500px;
+	font-family: sans-serif;
+}
+
+.event {
+	position: relative;
+	margin: .5rem;
+	padding: .5rem;
+	padding-left: 1rem;
+	border-radius: 3%;
+}
+
+.desc {
+	position: absolute;
+	left: -8.5em;
+	color: black;
+	top: -0.25em;
+}
+
+.date {
+	position: absolute;
+	top: -.25em;
+	left: 1.2em;
+	color: gray;
+	font-size: 8pt;
+
+}
+
+.time {
+	position: absolute;
+	top: -.5em;
+	left: -1em;
+	color: #9BCAF1;
+	font-size: 30pt;
+}
+
+.clock {
+	position: absolute;
+	left: -4.75em;
+	top: -.5em;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	border: 6px solid #9BCAF1;
+}
+
+li {
+	list-style: none;
+}
+
+li:nth-child(odd) {
+	background-color: #6CB2E6;
+}
+
+li:nth-child(even) {
+	background-color: #3E82BC;
+}
